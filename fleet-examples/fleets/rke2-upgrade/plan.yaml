@@ -17,8 +17,8 @@ spec:
     effect: "NoExecute"
   serviceAccountName: system-upgrade
   cordon: true
- drain:
-   force: true
+#  drain:
+#    force: true
   upgrade:
     image: rancher/rke2-upgrade
   version: v1.25.9+rke2r1
