@@ -17,11 +17,11 @@ spec:
     effect: "NoExecute"
   serviceAccountName: system-upgrade
   cordon: true
-#  drain:
-#    force: true
+ drain:
+   force: true
   upgrade:
     image: rancher/rke2-upgrade
-  version: v1.27.7-rke2r2
+  version: v1.25.9+rke2r1
 ---
 # Agent plan
 apiVersion: upgrade.cattle.io/v1
