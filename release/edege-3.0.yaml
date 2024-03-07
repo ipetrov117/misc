@@ -1,0 +1,10 @@
+name: "Edge 3.0"
+description: "Tooling for the Edge 3.0 release"
+version: "3.0"
+tooling:
+  kubernetes:
+    version: v1.28.7+rke2r1
+  charts: []
+  # - name: metal3
+  #   version: <expected version>
+  #   location: <IBS_URL?>
