@@ -8,3 +8,8 @@ tooling:
   # - name: metal3
   #   version: <expected version>
   #   location: <IBS_URL?>
+  os: {}
+  # version: <version>
+  # pacakges:
+  # - name: <foo>
+  #   version: <bar>
