@@ -20,7 +20,7 @@ spec:
   cordon: true
   upgrade:
     image: rancher/rke2-upgrade
-  version: v1.28.5+rke2r1
+  version: v1.28.6+rke2r1
 ---
 # worker upgrade plan
 apiVersion: upgrade.cattle.io/v1
@@ -46,4 +46,4 @@ spec:
     force: true
   upgrade:
     image: rancher/rke2-upgrade
-  version: v1.28.5+rke2r1
+  version: v1.28.6+rke2r1
